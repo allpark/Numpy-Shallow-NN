@@ -74,9 +74,9 @@ class shallowNN(object):
 
         # initialize weights and biases for the hidden and output layers
         W1 = np.random.randn(n_h, n_x) * weight_scalar
-        b1 = np.zeros((n_h, 1))  * weight_scalar
+        b1 = np.zeros((n_h, 1))
         W2 = np.random.randn(n_y, n_h) * weight_scalar
-        b2 = np.zeros((n_y, 1)) * weight_scalar
+        b2 = np.zeros((n_y, 1))
 
 
         # store parameters within a dictionary for ease of use
@@ -279,8 +279,6 @@ class shallowNN(object):
              
             # Gradient descent parameter update. Inputs: "parameters, grads". Outputs: "parameters".
             parameters = self.update_parameters(parameters, grads)
-            
-            ### END CODE HERE ###
             
             # Print the cost every 1000 iterations
             if print_cost and i % 1 == 0:
