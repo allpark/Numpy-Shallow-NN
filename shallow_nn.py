@@ -1,3 +1,5 @@
+import numpy as np
+
 # helper functions
 def sigmoid(x):
     """
@@ -301,3 +303,6 @@ class shallowNN(object):
         A2, cache   = self.forward_propagation(X, self.parameters)
         predictions = A2 > 0.5
         return A2
+    
+    
+
