@@ -1,1 +1,2 @@
-# Numpy-Shallow-NN
+# Numpy Vectorised Shallow Neural Network 
+
