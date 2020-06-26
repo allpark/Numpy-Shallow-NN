@@ -27,7 +27,7 @@ Creates a 2-layer Neural Net and trains it based on the provided arguments
 
 1. X - Numpy Matrix containing your training examples, with columns 
 
-![X](https://github.com/allpark/Python-Shallow-NN/blob/master/doc_images/x_example.jpg)
+![X](https://github.com/allpark/Python-Shallow-NN/blob/master/doc_images/x_matrix_diagram.jpg)
 
 
 
