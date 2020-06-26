@@ -14,4 +14,20 @@ To install this module, drop and include the following files into your project:
 2. latest version of numpy (required)
 
 
+## Functions 
+### Name: shallowNN
+##### Description
+
+Creates a 2-layer Neural Net and trains it based on the provided arguments
+
+##### Usage
+> shallowNN( X, Y, num_iterations, learning_rate, print_cost)
+
+##### Parameters
+
+1. X - Numpy Matrix containing your training examples, with columns 
+
+![X](https://github.com/allpark/Python-Shallow-NN/blob/master/doc_images/x_example.jpg)
+
+
 
