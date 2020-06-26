@@ -50,7 +50,7 @@ This trains a network to be able to perform XOR, given two features
 X = np.array([[0,0,1,1],[0,1,0,1]])
 Y = np.array([[0,1,1,0]])
 
-nn = snn.shallowNN( X, Y, num_iterations = 1000, learning_rate = 0.1, print_cost = False)
+nn = shallowNN( X, Y, num_iterations = 1000, learning_rate = 0.1, print_cost = False)
 
 predictions = np.squeeze( nn.predict(np.array([[0,0,1,1],[0,1,0,1]])) > 0.5)
 
