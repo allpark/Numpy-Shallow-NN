@@ -29,5 +29,9 @@ Creates a 2-layer Neural Net and trains it based on the provided arguments
 
 ![X](https://github.com/allpark/Python-Shallow-NN/blob/master/doc_images/x_matrix_diagram.jpg)
 
+2. Y - Numpy Matrix containing your "true" label values corresponding to each training example
+
+![Y](https://github.com/allpark/Python-Shallow-NN/blob/master/doc_images/y_vector_diagram.jpg)
+
 
 
