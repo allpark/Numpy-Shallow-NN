@@ -33,5 +33,38 @@ Creates a 2-layer Neural Net and trains it based on the provided arguments
 
 ![Y](https://github.com/allpark/Python-Shallow-NN/blob/master/doc_images/y_vector_diagram.jpg)
 
+3. num_iterations - number of iterations of gradient descent to be performed 
 
+4. learning_rate - hyperparameter for controlling how much weights and biases are changed in respect to loss 
+
+5. print_cost - print loss every iteration of gradient descent
+
+##### Return values
+
+1. object  - containing our trained model 
+
+##### Example
+
+This trains a network to be able to perform XOR, given two features
+```
+X = np.array([[0,0,1,1],[0,1,0,1]])
+Y = np.array([[0,1,1,0]])
+
+nn = snn.shallowNN( X, Y, num_iterations = 1000, learning_rate = 0.1, print_cost = False)
+
+predictions = np.squeeze( nn.predict(np.array([[0,0,1,1],[0,1,0,1]])) > 0.5)
+
+```
+
+
+## Technologies
+
+* Python 3
+* Numpy 
+
+
+## Authors
+
+* **Allan Parker** - *Initial work* - [AllPark](https://github.com/allpark)
+* **Andrew Ng** - *course mentor* 
 
