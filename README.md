@@ -13,7 +13,6 @@ To install this module, drop and include the following files into your project:
 1. shallow_nn.py.js
 2. latest version of numpy (required)
 
-
 ## Functions 
 ### Name: shallowNN
 ##### Description
