@@ -16,6 +16,10 @@ def sigmoid(x):
 
 
 # main shallow neural network class
+# Layer 1's activation function is tanh 
+# Layer 2's activation function is sigmoid
+# to-do: make this configurable 
+
 class shallowNN(object):
 
     def __init__(self, X, Y, num_iterations=1000, learning_rate=1.0, weight_scalar=1.0, num_hiddenunits=4, print_cost=False):
@@ -254,7 +258,7 @@ class shallowNN(object):
         n_h -- size of the hidden layer
         num_iterations -- Number of iterations in gradient descent loop
         print_cost -- if True, print the cost every 1000 iterations
-        
+             
         Returns:
         parameters -- parameters learnt by the model. They can then be used to predict.
         """
