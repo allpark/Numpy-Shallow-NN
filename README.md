@@ -17,7 +17,7 @@ To install this module, drop and include the following files into your project:
 ### Name: shallowNN
 ##### Description
 
-Creates a 2-layer Neural Net and trains it based on the provided arguments
+Creates a 2-layer Neural Net object and trains it based on the provided arguments
 
 ##### Usage
 > shallowNN( X, Y, num_iterations, learning_rate, print_cost)
@@ -44,7 +44,7 @@ Creates a 2-layer Neural Net and trains it based on the provided arguments
 
 ##### Example
 
-This trains a network to be able to perform XOR, given two features
+This trains a network to be able to perform XOR, given two input features
 ```
 X = np.array([[0,0,1,1],[0,1,0,1]])
 Y = np.array([[0,1,1,0]])
