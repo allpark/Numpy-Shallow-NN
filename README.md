@@ -17,7 +17,7 @@ To install this module, drop and include the following files into your project:
 ### Name: shallowNN
 ##### Description
 
-Creates a 2-layer Neural Net object and trains it based on the provided arguments
+Creates a two-layered Neural Net object and trains it based on the provided arguments
 
 ##### Usage
 > shallowNN( X, Y, num_iterations, learning_rate, print_cost)
