@@ -11,7 +11,7 @@ These instructions will get you a copy of the module up and running on your loca
 
 To install this module, drop and include the following files into your project: 
 1. shallow_nn.py.js
-2. latest version of numpy (required)
+2. latest version of numpy for Python 3 (required)
 
 ## Functions 
 ### Name: shallowNN
