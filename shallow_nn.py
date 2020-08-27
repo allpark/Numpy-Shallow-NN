@@ -18,7 +18,8 @@ def sigmoid(x):
 # main shallow neural network class
 # Layer 1's activation function is tanh 
 # Layer 2's activation function is sigmoid
-# to-do: make this configurable 
+
+# to-do: make the activation functions changeable
 
 class shallowNN(object):
 
